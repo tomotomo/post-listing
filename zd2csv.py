@@ -50,7 +50,7 @@ print('Write...')
 
 with open(filename, 'w') as f:
     fp = csv.writer(f)
-    fp.writerow(['id','status','title','link'])
+    fp.writerow(['id','title','link'])
 
     while True:
         for post in data['articles']:
